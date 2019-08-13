@@ -1,1 +1,1 @@
-fun stuff with shaders
+learning to write shaders

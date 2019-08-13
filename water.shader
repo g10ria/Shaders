@@ -9,7 +9,6 @@ Shader "Custom/Water"
   }
   SubShader
   {
-
     //   water shader written in shaderlab
     
     Pass
