@@ -18,7 +18,7 @@ void main() {
 
     // normalizing and shaping
     // float colDif = sin(iTime)+1.0;
-    float colDif = mod(iTime, 1.0);
+    float colDif = mod(iTime/10.0, 1.0);
     float valDif = cos(iTime)/4.0 + 0.5;
 
     float len = length(rot) * 2.0;
