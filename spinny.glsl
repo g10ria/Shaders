@@ -17,7 +17,8 @@ void main() {
     vec2 rot = vec2(0.5)-st;
 
     // normalizing and shaping
-    float colDif = sin(iTime)+1.0;
+    // float colDif = sin(iTime)+1.0;
+    float colDif = mod(iTime, 1.0);
     float valDif = cos(iTime)/4.0 + 0.5;
 
     float len = length(rot) * 2.0;
